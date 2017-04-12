@@ -26,7 +26,7 @@ brew install wget --with-iri
 brew install openssh
 
 # Install font tools.
-brew tap bramstein/webfonttools
+brew install fonttools
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
@@ -43,7 +43,6 @@ brew install p7zip
 brew install pigz
 brew install pv
 brew install rename
-brew install rhino
 brew install speedtest_cli
 brew install ssh-copy-id
 brew install testssl
@@ -51,6 +50,34 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
+
+# Install ffmpeg with additional recommended options
+brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265
+
+# Install everything else I use after reviewing for usage and duplications.  
+#`brew leaves : show > brew-leaves.txt && cat ./brew-leaves.txt && sed -i 's/^/brew install /' ./brew-leaves.txt`
+brew install casperjs
+brew install dark-mode
+brew install elasticsearch
+brew install get_iplayer
+brew install git-flow-avh
+brew install httrack
+brew install id3v2
+brew install jq
+brew install mongodb
+brew install nginx
+brew install node
+brew install pandoc
+brew install python
+brew install rbenv
+brew install sox
+brew install speedtest_cli
+brew install tesseract
+brew install tree
+brew install wp-cli
+brew install youtube-dl
+brew install zsh
+brew install zsh-completions
 
 # Remove outdated versions from the cellar.
 brew cleanup
