@@ -55,7 +55,7 @@ brew install zopfli
 brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265
 
 # Install everything else I use after reviewing for usage and duplications.  
-#`brew leaves : show > brew-leaves.txt && cat ./brew-leaves.txt && sed -i 's/^/brew install /' ./brew-leaves.txt`
+#`brew leaves : show > brew-leaves.txt && cat ./brew-leaves.txt && sed -i 's/^/brew install /' ./brew-leaves.txt`.
 brew install casperjs
 brew install dark-mode
 brew install elasticsearch
