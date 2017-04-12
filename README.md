@@ -1,4 +1,4 @@
-# Mathias’s dotfiles
+# Tim’s dotfiles
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
@@ -11,7 +11,7 @@
 You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone git@github.com:tjgilpin/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:
@@ -82,6 +82,14 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ```
 
 Some of the functionality of these dotfiles depends on formulae installed by `brew.sh`. If you don’t plan to run `brew.sh`, you should look carefully through the script and manually install any particularly important ones. A good example is Bash/Git completion: the dotfiles use a special version from Homebrew.
+	
+## TODO
+
+1. Add NPM packages install script
+1. Setup ZSH (and Oh My ZSH) settings (.env, etc.)
+1. Homebrew Cask Installs for GUI?
+1. Homebrew Fonts?
+1. Detail rest of new install process (Adobe, Docker, etc) - prob not here but in wiki?
 
 ## Feedback
 
