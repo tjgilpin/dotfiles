@@ -56,8 +56,7 @@ brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass -
 
 # Install everything else I use after reviewing for usage and duplications.  
 #`brew leaves : show > brew-leaves.txt && cat ./brew-leaves.txt && sed -i 's/^/brew install /' ./brew-leaves.txt`.
-brew install casperjs
-brew install dark-mode
+brew install fish
 brew install elasticsearch
 brew install get_iplayer
 brew install git-flow-avh
@@ -76,8 +75,24 @@ brew install tesseract
 brew install tree
 brew install wp-cli
 brew install youtube-dl
-brew install zsh
-brew install zsh-completions
+
+# brew cask
+brew cask install firefox
+brew cask install google-chrome
+brew cask install vlc
+brew cask install imageoptim
+brew cask install spotify
+brew cask install whatsapp
+brew cask install mamp
+brew cask install docker  
+brew cask install dropbox 
+brew cask install iterm2
+brew cask install visual-studio-code
+brew cask install cyberduck
+brew cask install sketch
+brew cask install transmission
+brew cask install android-file-transfer
+brew cask install keeweb
 
 # Remove outdated versions from the cellar.
 brew cleanup
